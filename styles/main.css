@@ -1,0 +1,63 @@
+
+body {
+  background-color: oldlace;
+}
+.header {
+  display: flex;
+  font-family: sans-serif;
+  margin: 1rem 0rem;
+  padding: 2rem;
+  text-align: center;
+  font-size: 25px;
+  background-color: #007bff;
+  justify-content: space-evenly;
+  border: 1px solid lightcoral;
+  font-size: larger;
+  color: lightcoral;
+}
+
+h2 {
+  text-align: center;
+  font-size: large;
+  color: lightcoral;
+}
+
+.current-bookings {
+  display: flex;
+  flex-basis: 24%;
+  margin: 2rem 2rem;
+  padding: 2rem;
+  border: 1px solid lightcoral;
+  justify-content: space-evenly;
+  background-color: #007bff;
+  font-size: smaller;
+  
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.detail--column {
+  flex-basis: 25%;
+  margin: 1rem 2rem;
+  padding: 2rem;
+  border: 1px solid lightcoral;
+  background-color: #007bff;
+  font-size: smaller;
+}
+
+ul {
+  list-style: none; 
+}
+
+ul li::before {
+  content: "\2022";  
+  color: lightcoral; 
+  font-weight: bold; 
+  display: inline-block; 
+  width: .75em; 
+  margin-left: -.75em; 
+}
